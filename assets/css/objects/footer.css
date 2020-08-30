@@ -1,0 +1,13 @@
+.footer {
+  grid-area: footer;
+  background-color: var(--bg-footer);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0px 20px;
+}
+
+.footer > .footer-paragraph{
+  color: var(--color-secondary);
+}

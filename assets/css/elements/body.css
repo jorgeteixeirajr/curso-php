@@ -1,0 +1,8 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 120px 1fr 60px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "main" "footer";
+}
